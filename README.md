@@ -16,10 +16,8 @@
 * #### [Instance reference name in data type (class)](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/InstanceReference.md)
 * #### [Properties](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Properties.md)
 
-* #### Interfaces / protocols
-  * #### What does the language support?
-  * #### What abilities does it have?
-  * #### How is it used?
+* #### [Interfaces / protocols](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/InterfacesProtocols.md)
+
 * #### [Inheritance / extension](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/InheritanceExtension.md)
 * #### [Reflection](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Reflection.md)
 * #### Memory management
