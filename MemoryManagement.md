@@ -12,12 +12,12 @@ This model of garbage collection is very similiar to java and works well for mos
 ## Ruby
 Maz, the creator of Ruby, sought to create a language for people and not machines when he was designing ruby. This led him to the obvious decision to include a garbage collector with the language. The garbage collector runs only when the memory for the program has completely runs out and sweeps through the entire area allocated for it.
 
-## Automatic Reference Counting
-
-### C#
+## Other
+### Automatic Reference Counting
+#### C#
 The designers of the .Net framework opted for garbage collection over reference counting. There many reasons can be found in the extensive email chain in the link below. In summary they felt that it would add too much complexity to the language for the user to have to navigate.
 
 https://blogs.msdn.microsoft.com/brada/2005/02/11/resource-management/
 
-### Ruby
+#### Ruby
 Ruby also does not use ARC for memory management but specific reasons as to why are not easily available outside of speculation. 
