@@ -21,8 +21,7 @@
 * #### [Inheritance / extension](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/InheritanceExtension.md)
 * #### [Reflection](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Reflection.md)
 * #### [Memory management](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/MemoryManagement.md)
-* #### Comparisons of references and values
-  * #### How are values compared? (i.e. comparing two strings)
+* #### [Comparisons of references and values](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Comparison.md)
 * #### [Null/nil references](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/NullAndNilReferences.md)
 * #### Errors and exception handling
 * #### Lambda expressions, closures, or functions as types
