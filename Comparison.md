@@ -1,11 +1,5 @@
 # Comparisons of references and values
 
-## Comparisons of Values
-
-### C#
-
-### Ruby
-
 ## Comparisons of References
 
 ### C#
@@ -36,7 +30,31 @@ object1.eql? object3
 
 ```
 
+however the ```eal?``` method and ```==``` operator can be redefined to provide custom comparison functionality for a class.
 
+for example:
+
+```
+class Person
+  @name
+  def initialize name 
+    @name = name
+  end
+
+  def ==(other_person)
+    self.name == other_person.name
+  end
+end
+```
+The above example will say two people are equal if their names are equal. Ruby also allows for <, >, <=, >=, etc by including the Comparable module in the class. Once with is done a comparision method(```<=>```) can be defined to do comparisons.
+
+Also notable is that the difference between ```==``` and ```eql?``` is that typically the latter is used to compare value _and_ type while the former is only used to compare value. This could be useful when comparing things like numbers where the types can vary widely but it is often possible to compare their values. Other times you may need to keep types seperate
+
+## Comparisons of Values
+
+### C#
+
+### Ruby
 
 
 How are values compared? (i.e. comparing two strings)
