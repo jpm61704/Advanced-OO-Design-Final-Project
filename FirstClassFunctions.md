@@ -32,7 +32,16 @@ The example above will print ```"Hello World"``` twice as there are two yields t
 #### Procs
 Procs(short for procedure) are blocks that are saved into a variable as objects. They can thus be passed around and reused like any other object. They can be executed by calling the method ```call( variables )``` on the proc.
 
+Syntax: ``` proc_name = Proc.new { |arguments| statement }```
+
 #### Lambdas
 Lambdas are a type of proc that allow for safe use of the ```return``` keyword. If ```return``` is called inside a proc it will also return for the function that the proc is inside of. Lambdas instead only return out of the lambda and not their enclosing method or function. 
 
+Syntax ```lam_name = lambda { |arguments| statement }```
+
 Lambdas are also a bit more strict with variables. If you pass a proc the wrong number of variables it will try and make things work. But if a lambda is passed the wrong number of variables it will throw an error.
+
+## Closures
+
+Closures in both languages are created whenever a lambda(or in ruby's case, any of the above first-order functions) is left with free variables that reference things outside of the functions main block. This means that the function is tide to the environment(and is also unpure). Closures in both languages don't have any particularly useful features but does help a user understand what is goin on in the code.
+
