@@ -1,12 +1,8 @@
 # Comparisons of references and values
 
-## Comparisons of References
+## Ruby
 
-### C#
-
-### Ruby
-
-Object references are compared much how one would expect in most languages. It is done by calling the ```equal?``` or ```eql?``` methods on an object or by using the ```==``` infix operator.
+Object references are compared much how one would expect in most languages. It is done by calling the ```equal?``` or ```eql?``` methods on an object or by using the ```==``` infix operator. For a class that doesnt override any of these methods, this will do reference comparison. 
 
 for example:
 
@@ -30,7 +26,7 @@ object1.eql? object3
 
 ```
 
-however the ```eal?``` method and ```==``` operator can be redefined to provide custom comparison functionality for a class.
+however the ```eal?``` method and ```==``` operator can be redefined to provide custom comparison functionality for a class's values.
 
 for example:
 
@@ -50,11 +46,8 @@ The above example will say two people are equal if their names are equal. Ruby a
 
 Also notable is that the difference between ```==``` and ```eql?``` is that typically the latter is used to compare value _and_ type while the former is only used to compare value. This could be useful when comparing things like numbers where the types can vary widely but it is often possible to compare their values. Other times you may need to keep types seperate
 
-## Comparisons of Values
+## C#
 
-### C#
+C# comparison is very similiar to ruby except that it only has an ```Equals()``` method and the ```==``` operator.  The main difference in this language is that ```Equals()``` is polymorphic and can change at execution time and ```==``` is determined on the type of the objects at compile-time. 
 
-### Ruby
-
-
-How are values compared? (i.e. comparing two strings)
+Comparing values can be done by ovveriding the ```Equals()``` functuon to define the behavior. If comparing primitives this is done implicitely with ```==```. 
