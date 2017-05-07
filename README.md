@@ -2,7 +2,7 @@
 
 ## Languages: C# and Ruby
 
-#### Project Repo for: Jack Martin, Kenrick Niedbalski, Jeremy Warder, and Robert Spalding.
+#### Project Repo for: Jack Martin, Kenrick Niedbalski, Jeremy Warden, and Robert Spalding.
 --------------------------------
 ## Table of Contents
 * #### [Language purpose/genesis](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/LanguagePurpose.md)
@@ -20,7 +20,7 @@
 
 * #### [Inheritance / extension](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/InheritanceExtension.md)
 * #### [Reflection](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Reflection.md)
-* #### Memory management
+* #### [Memory management](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/MemoryManagement.md)
   * #### How is it handled?
   * #### How does it work?
   * #### Garbage collection?
