@@ -24,9 +24,9 @@ the ```throw``` keyword can be used to throw an exception if code that is being 
 ## Ruby
 
 Ruby error handling is almost as boring and unexceptional as C# _but_ it has different keywords to make the language more exciting.
-```raise```: raises an exception, this is ruby's equivilent to ```throw```
-```rescue```: rescues the program in the event of an exception being raised. In most other languages this is called ```catch```
-```ensure```: the equivilent to ```finally```
+- ```raise```: raises an exception, this is ruby's equivilent to ```throw```
+- ```rescue```: rescues the program in the event of an exception being raised. In most other languages this is called ```catch```
+- ```ensure```: the equivilent to ```finally```
 
 The most notable difference about Ruby's error handling is that it doesnt utilize a try keyward and opts to just reuse its ```begin/end``` keywords to define a block to be rescued. 
 
