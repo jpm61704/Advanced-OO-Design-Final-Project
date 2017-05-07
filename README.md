@@ -24,7 +24,7 @@
 * #### [Comparisons of references and values](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Comparison.md)
 * #### [Null/nil references](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/NullAndNilReferences.md)
 * #### [Errors and exception handling](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/WhatHappensWhenThingsGoWrong.md)
-* #### [Lambda expressions, closures, or functions as types](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/FunctionalFeatures.md)
+* #### [Lambda expressions, closures, or functions as types](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/FirstClassFunctions.md)
 * #### [Implementation of listeners and event handlers](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/ListenersAndEventHandlers.md)
 * #### [Singleton](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/Singleton.md)
 * #### [Procedural programming](https://github.com/jpm61704/Advanced-OO-Design-Final-Project/blob/master/ProceduralProgramming.md)
